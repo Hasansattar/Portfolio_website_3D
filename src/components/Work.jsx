@@ -44,6 +44,15 @@ const Works = () => {
   }, [selected, projectList]);
 
   //console.log(data);
+  const boxVariants = {
+    hover: {
+      scale: 1.04,
+      transition: {
+        type: "spring",
+      },
+    },
+  };
+  
 
   return (
     <>
@@ -71,6 +80,9 @@ const Works = () => {
       <div className="sm:grid sm:grid-cols-2 lg:flex justify-center mx-auto mt-6">
         {projectList &&
           projectList.map((list,index) => (
+            <div
+            data-aos="fade-right"
+            >
             <PortfolioItem
               title={list}
               key={index}
@@ -78,6 +90,7 @@ const Works = () => {
               setSelected={setSelected}
               id={list}
             />
+            </div>
           ))}
       </div>
       {/* --------- */}
@@ -85,7 +98,14 @@ const Works = () => {
       <div className="mt-20 flex flex-wrap gap-7">
         {data.map((project, index) => {
           return (
-            <motion.div key={index}>
+            <div
+            data-aos="fade-right"
+            >
+             
+            <motion.div key={index}
+            variants={boxVariants}
+            whileHover="hover"
+            >
               <Tilt
                 options={{
                   max: 45,
@@ -160,6 +180,7 @@ const Works = () => {
                 </div>
               </Tilt>
             </motion.div>
+            </div>
           );
         })}
       </div>

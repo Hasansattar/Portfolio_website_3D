@@ -1,5 +1,5 @@
 
-import Image from 'next/image'
+"use client"
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
@@ -11,9 +11,18 @@ import Feedback from '@/components/Feedback'
 import Contact from '@/components/Contact'
 import StarsCanvas from '@/components/canvas/Stars'
 import heropattern from "@/assets/herobg.png"
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React,{useEffect} from 'react'
 
 export default function Home() {
-  //console.log("heropattern",heropattern.src)
+  
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+      offset: 200,
+    });
+  }, []);
   return (
    <main>
     <div className='relative z-0 bg-primary'>

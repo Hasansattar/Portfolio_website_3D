@@ -12,6 +12,7 @@
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.78.1",
     "@react-three/fiber": "^8.13.4",
+    "aos": "^2.3.4",
     "autoprefixer": "10.4.14",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
