@@ -297,7 +297,7 @@ const projects = [
     id: "3",
   },
   {
-    name: "Expence Tracker App",
+    name: "NFT-Whitelist Proof",
     description:
       "Anyone can generate the proof using any public address in the list, but only the owner of that address will be able to make a successful transaction by using it.",
     tags: [
@@ -463,30 +463,6 @@ const projects = [
     source_code_link: "private",
     liveUrl: "https://metta-protocol-ico.netlify.app/#",
     category: "web3",
-    id: "9",
-  },
-  {
-    name: "VSGA - invest safely",
-    description:
-      "SGA is a real revolution in the DeFi world - at least for investors. The perfect program to estimate the risk of scam: it analyzes, of course, all possible mathematical factors",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: vsga,
-    source_code_link: "private",
-    liveUrl: "https://inspiring-heisenberg-e3846e.netlify.app/",
-    category: "frontend",
     id: "10",
   },
   {
@@ -510,8 +486,32 @@ const projects = [
     image: vsga,
     source_code_link: "private",
     liveUrl: "https://inspiring-heisenberg-e3846e.netlify.app/",
-    category: "fullstack",
+    category: "frontend",
     id: "11",
+  },
+  {
+    name: "VSGA - invest safely",
+    description:
+      "SGA is a real revolution in the DeFi world - at least for investors. The perfect program to estimate the risk of scam: it analyzes, of course, all possible mathematical factors",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vsga,
+    source_code_link: "private",
+    liveUrl: "https://inspiring-heisenberg-e3846e.netlify.app/",
+    category: "fullstack",
+    id: "12",
   },
   {
     name: "Business grow",
@@ -535,7 +535,7 @@ const projects = [
     source_code_link: "https://github.com/Hasansattar/website_animated",
     liveUrl: "http://animated-website-project4b.surge.sh/",
     category: "frontend",
-    id: "11",
+    id: "13",
   },
   {
     name: "Expence Tracker App",
@@ -559,7 +559,7 @@ const projects = [
     source_code_link: "https://github.com/Hasansattar/EXPENSE_TRACKER_APP",
     liveUrl: "http://hasansattar2.surge.sh/",
     category: "frontend",
-    id: "12",
+    id: "14",
   },
   {
     name: "NFT Whitelist Proof",
@@ -584,7 +584,7 @@ const projects = [
       "https://github.com/Hasansattar/ERC721_Nft_Whitelisting_website/tree/main/nft-erc721-and-web3model",
     liveUrl: "https://nft-whitelisting.netlify.app/",
     category: "web3",
-    id: "13",
+    id: "15",
   },
   {
     name: "Stop Watch",
@@ -608,7 +608,7 @@ const projects = [
     source_code_link: "https://github.com/Hasansattar/STOP_WATCH_TYPESCRIPT",
     liveUrl: "https://stop-watch-timer.surge.sh/",
     category: "frontend",
-    id: "14",
+    id: "16",
   },
   {
     name: "Diary App",
@@ -632,7 +632,7 @@ const projects = [
     source_code_link: "https://github.com/Hasansattar/DIARY_APP",
     liveUrl: "https://personal-diary.surge.sh/",
     category: "frontend",
-    id: "15",
+    id: "17",
   },
 ];
 
