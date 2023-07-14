@@ -90,7 +90,6 @@ const Works = () => {
           ))}
       </div>
       {/* --------- */}
-
       <div className="mt-20 flex flex-wrap gap-7">
         {data.map((project, index) => {
           return (
@@ -178,6 +177,94 @@ const Works = () => {
           );
         })}
       </div>
+
+      {/* <div className="mt-20 flex flex-wrap gap-7">
+        {data.map((project, index) => {
+          return (
+            <motion.div
+              key={index}
+              data-aos="fade-right"
+              name="portfolio"
+              variants={boxVariants}
+              whileHover="hover"
+            >
+              <Tilt
+                options={{
+                  max: 45,
+                  scale: 1,
+                  speed: 450,
+                }}
+                className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+              >
+                <div className="relative w-full h-[230px]">
+                  <Image
+                    src={project.image}
+                    alt="project_image"
+                    className="w-full h-full object-cover rounded-2xl"
+                  />
+                </div>
+
+                <div className="mt-5">
+                  <h3 className="text-white font-bold text-[24px]">
+                    {project.name}
+                  </h3>
+                  <p className="mt-2 text-secondary text-[14px]">
+                    {project.description}
+                  </p>
+                </div>
+
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {project.tags.map((tag) => (
+                    <p
+                      key={`${tag.name}-${tag.name}`}
+                      className={`text-[14px] ${tag.color}`}
+                    >
+                      #{tag.name}
+                    </p>
+                  ))}
+                </div>
+                <div className="flex justify-end">
+                  {project.source_code_link !== "private" ? (
+                    <a href={project.source_code_link}>
+                      <div className="bg-black hover:bg-slate-600 border-2 mx-2 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                        <Image
+                          src={github}
+                          alt="source code"
+                          className="w-1/2 h-1/2 object-contain"
+                        />
+                      </div>
+                    </a>
+                  ) : (
+                    <a href="#_">
+                      <div className="bg-black hover:bg-slate-600 border-2 mx-2 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                        <Image
+                          src={userlock}
+                          alt="source code"
+                          className="w-1/2 h-1/2 object-contain"
+                        />
+                      </div>
+                    </a>
+                  )}
+
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-black hover:bg-slate-600 border-2 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                      <Image
+                        src={links}
+                        alt="source code"
+                        className="w-1/2 h-1/2 object-contain"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </Tilt>
+            </motion.div>
+          );
+        })}
+      </div> */}
     </>
   );
 };
