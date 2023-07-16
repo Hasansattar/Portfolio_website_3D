@@ -42,6 +42,7 @@ import c3 from "../assets/certificate/c3.jpeg";
 import c4 from "../assets/certificate/c4.jpeg";
 import c5 from "../assets/certificate/c5.jpg";
 import c6 from "../assets/certificate/c6.jpg";
+import c7 from "../assets/certificate/c7.png";
 
 export const navLinks = [
   {
@@ -672,6 +673,12 @@ const achievements = [
     image: c6,
     liveUrl:
       "https://drive.google.com/file/d/1ZYpD30FeW8o0GzvLCv3fhVhXtT28q0Mo/view?usp=sharing",
+  },
+  {
+    name: "Java by sololearn",
+    image: c7,
+    liveUrl:
+      "https://drive.google.com/file/d/1AYTDtPqvunk9P56JHH8s6-qvH81PyphU/view?usp=sharing",
   },
 ];
 

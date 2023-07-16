@@ -32,12 +32,10 @@ const Achievements = () => {
       <div className="mt-20 flex flex-wrap gap-7">
         {achievements.map((project, index) => {
           return (
-            <>
+            <div key={index}>
               <motion.div
-                key={index}
                 data-aos="zoom-in"
-                name="achievements"
-                id="achievements"
+                
               >
                 <Tilt
                   options={{
@@ -77,7 +75,7 @@ const Achievements = () => {
                   </div>
                 </Tilt>
               </motion.div>
-            </>
+            </div>
           );
         })}
       </div>
