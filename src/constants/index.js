@@ -678,7 +678,7 @@ const achievements = [
     name: "Java by sololearn",
     image: c7,
     liveUrl:
-      "https://drive.google.com/file/d/1AYTDtPqvunk9P56JHH8s6-qvH81PyphU/view?usp=sharing",
+      "https://www.sololearn.com/certificates/CT-UJQM2QQC",
   },
 ];
 
