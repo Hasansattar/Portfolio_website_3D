@@ -44,6 +44,9 @@ import nftwhitelist from "./projects/nft-whitelist.png"
 import shoesstore from "./projects/shoestore.png"
 import stopwatch from "./projects/stop-watch.png"
 import dairapp from "./projects/dairy-app.png"
+import paymentlink from "./projects/paymentlink.png"
+import portfolio from "./projects/portfolio.png"
+
 
 export {
   logo,
@@ -86,5 +89,7 @@ export {
   nftwhitelist,
   shoesstore,
   stopwatch,
-  dairapp
+  dairapp,
+  paymentlink,
+  portfolio
 };

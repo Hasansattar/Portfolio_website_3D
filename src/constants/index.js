@@ -34,6 +34,8 @@ import {
   shoesstore,
   stopwatch,
   dairapp,
+  paymentlink,
+  portfolio
 } from "../assets";
 
 import c1 from "../assets/certificate/c1.jpeg";
@@ -635,6 +637,55 @@ const projects = [
     category: "frontend",
     id: "17",
   },
+  {
+    name: "payment Link",
+    description:
+      "Make a simple payment link in 5 seconds. Use our powerful features to customize your request.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: paymentlink,
+    source_code_link: "private",
+    liveUrl: "https://payment-website.surge.sh/",
+    category: "frontend",
+    id: "18",
+  },
+  {
+    name: "3D portfolio",
+    description:
+      "Discover my creative journey through a captivating collection of projects on my portfolio website.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity CMS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/Hasansattar/3D-Portfolio_website_using_Sanity_CMS",
+    liveUrl: "https://hasansattar-portfolio1.netlify.app/",
+    category: "frontend",
+    id: "19",
+  },
+  
 ];
 
 const achievements = [
